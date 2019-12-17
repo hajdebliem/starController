@@ -5,12 +5,9 @@ class Star {
   float  size;
   float lorr;
   float winkel = 0;
-  
-  //int lifespan = 30*60*5; //30fps*60*10 = 10min
-  int lifespan = 600; //30fps*60*10 = 10min
-  float alpha = 200;
-  
- //  int lifespan = 100;
+  float alpha = 200;  
+  int lifespan = 30*60*5; //30fps*60*5 = 5min
+  // int lifespan = 600; //for debugging
 
   //Constructor
   Star(color tempFarbe, float tempSize) {
