@@ -11,3 +11,5 @@ You know there is always that one kid that tries to beat the system. In my case 
 I already understood that there would be more efficient ways to draw the stars. But anyhow if u have suggestions on how to optimise the code i am happy to learn…
 
 what bugs me the most: the sliders in the touchOSC App all need to be moved initialy. Initiallising the parameters didn do the trick. On conection all Values are 0. So all the stars that get created have no color and a size of 0. 
+
+![alt text](https://raw.githubusercontent.com/hajdebliem/starController/master/img/screenshot.png)
