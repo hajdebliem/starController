@@ -1,4 +1,4 @@
-# stars
+# starController
 a private use window decoration.
 
 As the days get shorter and the temperatures drop, i start to miss the chatter of our neighbours and the screaming of the kids in the afternoon. 
