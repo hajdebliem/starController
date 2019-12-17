@@ -1,6 +1,8 @@
 # starController
 a private use osc enabled window decoration made with processing
 
+![window](https://raw.githubusercontent.com/hajdebliem/starController/master/img/window.png)
+
 As the days get shorter and the temperatures drop, i start to miss the chatter of our neighbours and the screaming of the kids in the afternoon. 
 So i decided to gather all those who feel the same. On a cold and dark winter evening i served Pumpkin Soup, Wiener Würste and Glühwein.
 To spice things up i projected this star/flake generator on to the street facing window of our flat from the inside.
@@ -12,4 +14,4 @@ I already understood that there would be more efficient ways to draw the stars. 
 
 what bugs me the most: the sliders in the touchOSC App all need to be moved initialy. Initiallising the parameters didn do the trick. On conection all Values are 0. So all the stars that get created have no color and a size of 0. 
 
-![alt text](https://raw.githubusercontent.com/hajdebliem/starController/master/img/screenshot.png)
+![screenshoot](https://raw.githubusercontent.com/hajdebliem/starController/master/img/screenshot.png)
