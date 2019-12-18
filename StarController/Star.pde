@@ -58,14 +58,18 @@ class Star {
     stroke(colObject, alpha);
     strokeWeight(size/2);
 
+    triangle(a.x, a.y, b.x, b.y, c.x, c.y);
+    triangle(d.x, d.y, e.x, e.y, f.x, f.y);
+    /*
     beginShape(TRIANGLES);
-    vertex(a.x, a.y);
-    vertex(b.x, b.y);
-    vertex(c.x, c.y); 
-    vertex(d.x, d.y);
-    vertex(e.x, e.y);
-    vertex(f.x, f.y); 
-    endShape();
+     vertex(a.x, a.y);
+     vertex(b.x, b.y);
+     vertex(c.x, c.y); 
+     vertex(d.x, d.y);
+     vertex(e.x, e.y);
+     vertex(f.x, f.y); 
+     endShape();
+     */
   }
 
   void bottom() {
@@ -76,23 +80,20 @@ class Star {
     }
   }
 
-void life(){
-   lifespan -= 1;
-    if(lifespan <= 100){
+  void life() {
+    lifespan -= 1;
+    if (lifespan <= 100) {
       alpha -= 1;
     }
-
-}
+  }
   /*Sidewards Motion WIND
-  void update() {
-    if (acceleration.y <= 0.7) {        
-      acceleration.x = random(-0.6, 0.7);
-    } else if (acceleration.y >= 0.7) {      
-      acceleration.x = random(-2.6, 1.7);
-    }
-  }*/
-  
-
+   void update() {
+   if (acceleration.y <= 0.7) {        
+   acceleration.x = random(-0.6, 0.7);
+   } else if (acceleration.y >= 0.7) {      
+   acceleration.x = random(-2.6, 1.7);
+   }
+   }*/
   boolean amIdead() {
     if (lifespan <= 0) {
       return true;

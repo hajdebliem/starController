@@ -1,8 +1,8 @@
 //  ——————————————————————————————————————————————
-//  bliem level = 010.4;
+//  bliem level = 010.5;
 //  Author: Benedikt Schläppi | www.onebus.ch
 //  Built:  11.12.2019
-//  LastMod:  17.12.2019 
+//  LastMod:  18.12.2019 
 //  Purpouse: window decoration
 //  Features: lifespan, auto generate when empty (potentally buggy)
 //  IDEAS: better "wind" , fullreset, better Star form, random Star form… , 
@@ -25,7 +25,7 @@ float tempS;
 float timer = 0;
 
 void setup() {
-  fullScreen();
+  fullScreen(P2D);
   //size(1248,768);
   frameRate(30);
   //noStroke();
@@ -34,6 +34,7 @@ void setup() {
   // myRemoteLocation = new NetAddress("192.168.1.23", 9001); // TouchOSC iPhone @ Home
   // myRemoteLocation = new NetAddress("192.168.1.22", 9000); // TouchOSC iPad @ Home
   myRemoteLocation = new NetAddress("10.163.173.79", 9001); // TouchOSC iPhone @ WORK
+  
   oscP5.plug(this, "generate", "/1/create");
   oscP5.plug(this, "remove", "/1/remove");
   stars = new ArrayList<Star>();
